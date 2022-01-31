@@ -1,0 +1,13 @@
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\bin\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.Test.deps.json
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\bin\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.Test.dll
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\bin\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.Test.pdb
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\bin\Debug\netcoreapp3.0\PerfectChannel.Domain.dll
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\bin\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.dll
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\bin\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.pdb
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\bin\Debug\netcoreapp3.0\PerfectChannel.Domain.pdb
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\obj\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.Test.csprojAssemblyReference.cache
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\obj\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.Test.AssemblyInfoInputs.cache
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\obj\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.Test.AssemblyInfo.cs
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\obj\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.Test.csproj.CopyComplete
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\obj\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.Test.dll
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\Test\PerfectChannel.Infrastructure.Test\obj\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.Test.pdb

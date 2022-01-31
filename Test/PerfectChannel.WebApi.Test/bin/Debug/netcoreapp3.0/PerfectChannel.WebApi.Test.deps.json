@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "PerfectChannel.WebApi.Test/1.0.0": {
+        "dependencies": {
+          "PerfectChannel.Domain": "1.0.0",
+          "PerfectChannel.Infrastructure": "1.0.0",
+          "PerfectChannel.WebApi": "1.0.0"
+        },
+        "runtime": {
+          "PerfectChannel.WebApi.Test.dll": {}
+        }
+      },
+      "PerfectChannel.Domain/1.0.0": {
+        "runtime": {
+          "PerfectChannel.Domain.dll": {}
+        }
+      },
+      "PerfectChannel.Infrastructure/1.0.0": {
+        "dependencies": {
+          "PerfectChannel.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PerfectChannel.Infrastructure.dll": {}
+        }
+      },
+      "PerfectChannel.WebApi/1.0.0": {
+        "dependencies": {
+          "PerfectChannel.Domain": "1.0.0",
+          "PerfectChannel.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "PerfectChannel.WebApi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PerfectChannel.WebApi.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PerfectChannel.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PerfectChannel.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PerfectChannel.WebApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

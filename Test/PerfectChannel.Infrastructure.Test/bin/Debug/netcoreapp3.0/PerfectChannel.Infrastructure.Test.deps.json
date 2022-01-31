@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "PerfectChannel.Infrastructure.Test/1.0.0": {
+        "dependencies": {
+          "PerfectChannel.Domain": "1.0.0",
+          "PerfectChannel.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "PerfectChannel.Infrastructure.Test.dll": {}
+        }
+      },
+      "PerfectChannel.Domain/1.0.0": {
+        "runtime": {
+          "PerfectChannel.Domain.dll": {}
+        }
+      },
+      "PerfectChannel.Infrastructure/1.0.0": {
+        "dependencies": {
+          "PerfectChannel.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PerfectChannel.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PerfectChannel.Infrastructure.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PerfectChannel.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PerfectChannel.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

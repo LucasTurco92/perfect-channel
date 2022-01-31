@@ -1,0 +1,11 @@
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\PerfectChannel.Infrastructure\bin\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.deps.json
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\PerfectChannel.Infrastructure\bin\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.dll
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\PerfectChannel.Infrastructure\bin\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.pdb
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\PerfectChannel.Infrastructure\bin\Debug\netcoreapp3.0\PerfectChannel.Domain.dll
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\PerfectChannel.Infrastructure\bin\Debug\netcoreapp3.0\PerfectChannel.Domain.pdb
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\PerfectChannel.Infrastructure\obj\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\PerfectChannel.Infrastructure\obj\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\PerfectChannel.Infrastructure\obj\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.AssemblyInfo.cs
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\PerfectChannel.Infrastructure\obj\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.csproj.CopyComplete
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\PerfectChannel.Infrastructure\obj\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.dll
+C:\Users\Shark\Desktop\challenge\Backend - Frontend\Back\PerfectChannel.Infrastructure\obj\Debug\netcoreapp3.0\PerfectChannel.Infrastructure.pdb

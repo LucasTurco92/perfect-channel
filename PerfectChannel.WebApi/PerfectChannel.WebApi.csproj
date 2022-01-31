@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PerfectChannel.Domain\PerfectChannel.Domain.csproj" />
+    <ProjectReference Include="..\PerfectChannel.Infrastructure\PerfectChannel.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

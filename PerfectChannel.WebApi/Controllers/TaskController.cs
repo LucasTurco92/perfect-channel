@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PerfectChannel.Domain.DTO;
+using PerfectChannel.Domain.Interfaces.Services;
 
 namespace PerfectChannel.WebApi.Controllers
 {
@@ -6,9 +8,13 @@ namespace PerfectChannel.WebApi.Controllers
     [Route("[controller]")]
     public class TaskController : ControllerBase
     {
+        private readonly ITaskService _taskService;
+        public TaskController(ITaskService taskService){
+            _taskService = taskService;
+        }
         [HttpGet]
-        public string Get(){
-            return "hello task";
+        public TasksResponseDTO Get(){
+            return _taskService.GetTasks();
         }
     }
 }

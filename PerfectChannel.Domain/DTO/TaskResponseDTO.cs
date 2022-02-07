@@ -2,8 +2,8 @@ using System.Collections.Generic;
 
 namespace PerfectChannel.Domain.DTO
 {
-    public class TasksResponseDTO
+    public class TaskResponseDTO
     {
-        public List<TaskDTO> Tasks{get;set;}
+        public List<TaskDTO> Tasks {get;set;}
     }
 }

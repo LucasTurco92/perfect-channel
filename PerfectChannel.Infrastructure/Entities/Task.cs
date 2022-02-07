@@ -1,5 +1,5 @@
 using System;
-namespace PerfectChannel.Domain.Entities
+namespace PerfectChannel.Infrastructure.Entities
 {
     public class Task
     {

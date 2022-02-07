@@ -1,8 +1,11 @@
 using Microsoft.Extensions.DependencyInjection;
+using PerfectChannel.Domain.DTO.Interfaces;
 using PerfectChannel.Domain.Interfaces;
 using PerfectChannel.Domain.Interfaces.Services;
 using PerfectChannel.Domain.Services;
 using PerfectChannel.Infrastructure.Repositories;
+using PerfectChannel.Infrastructure.Services.Mappers;
+using PerfectChannel.Infrastructure.Services.Mappers.Interfaces;
 
 namespace PerfectChannel.WebApi.Extensions
 {
@@ -22,6 +25,9 @@ namespace PerfectChannel.WebApi.Extensions
         private static void ConfigureInfraestructureModule(IServiceCollection services)
         {
             services.AddScoped<ITaskRepository, TaskRepository>();
+            services.AddScoped<ITaskMapper, TaskMapper>();
+            services.AddScoped<ITasksResponseMapper, TasksResponseMapper>();
+            services.AddScoped<IStateFactory, StateFactory>();
         }
         public static void ConfigureDomainModule(IServiceCollection services)
         {

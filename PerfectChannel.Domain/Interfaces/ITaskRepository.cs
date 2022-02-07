@@ -1,10 +1,12 @@
+using System;
 using PerfectChannel.Domain.DTO;
 
 namespace PerfectChannel.Domain.Interfaces
 {
     public interface ITaskRepository
     {
-        TasksResponseDTO GetTasks();
+        TaskResponseDTO GetTasks();
+        void AddNewTask(TaskDTO task);
     }
 }
 

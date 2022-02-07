@@ -13,6 +13,7 @@ namespace Test.PerfectChannel.WebApi.Controllers
         public TaskControllerTest()
         {
             _taskService = new Mock<ITaskService>();
+            _taskController = new TaskController(_taskService.Object);
         }
 
         [Fact]
@@ -21,14 +22,12 @@ namespace Test.PerfectChannel.WebApi.Controllers
         #region Given
 
         _taskService.Setup(x => x.GetTasks())
-            .Returns(It.IsAny<TasksResponseDTO>())
+            .Returns(It.IsAny<TaskResponseDTO>())
             .Verifiable();
         
         #endregion
         
         #region When
-        
-        _taskController = new TaskController(_taskService.Object);
 
         var result = _taskController.Get();
             
@@ -37,6 +36,33 @@ namespace Test.PerfectChannel.WebApi.Controllers
         #region Then
 
         _taskService.Verify(x=>x.GetTasks(), Times.Once);
+
+        #endregion
+        }
+
+        [Fact]
+        public void When_It_Calls_The_AddNewTask_Method_Should_Verify_The_Use_Of_The_TaskService() {
+        
+        #region Given
+        var description = new LastDescriptionDTO{
+            Description = "description"
+        };
+
+        _taskService.Setup(x => x.AddNewTask(description))
+            .Returns(It.IsAny<TaskDTO>())
+            .Verifiable();
+        
+        #endregion
+        
+        #region When
+        
+        var result = _taskController.AddNewTask(description);
+            
+        #endregion
+
+        #region Then
+
+        _taskService.Verify(x=>x.AddNewTask(description), Times.Once);
 
         #endregion
         }

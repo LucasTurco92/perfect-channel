@@ -3,7 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
-
+  
+  <ItemGroup>
+  <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.0.0" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PerfectChannel.Domain\PerfectChannel.Domain.csproj" />
     <ProjectReference Include="..\PerfectChannel.Infrastructure\PerfectChannel.Infrastructure.csproj" />

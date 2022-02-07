@@ -13,8 +13,14 @@ namespace PerfectChannel.WebApi.Controllers
             _taskService = taskService;
         }
         [HttpGet]
-        public TasksResponseDTO Get(){
+        public TaskResponseDTO Get(){
             return _taskService.GetTasks();
+        }
+
+        [HttpPost]
+        [Route("/addNewTask")]
+        public TaskDTO AddNewTask([FromBody]LastDescriptionDTO description){
+            return _taskService.AddNewTask(description);
         }
     }
 }

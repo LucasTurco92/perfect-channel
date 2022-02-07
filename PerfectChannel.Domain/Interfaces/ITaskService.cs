@@ -4,6 +4,7 @@ namespace PerfectChannel.Domain.Interfaces.Services
 {
     public interface ITaskService
     {
-        TasksResponseDTO GetTasks();
+        TaskResponseDTO GetTasks();
+        TaskDTO AddNewTask(LastDescriptionDTO description);
     }
 }
